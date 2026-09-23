@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#120b16">
+<title>Rachit ❤️ Jahanvi — #rahanvi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-orbs"></div>
+<div id="hearts"></div>
+
+<header class="topbar">
+  <div class="brand">R <span>♥</span> J</div>
+  <div class="progress"><i id="progressBar"></i></div>
+  <button class="music-btn" id="musicBtn" aria-label="Toggle ambient sound">♪</button>
+</header>
+
+<main id="app">
+  <!-- PAGE 1 -->
+  <section class="page active hero" data-page="1">
+    <div class="hero-glow"></div>
+    <p class="eyebrow">A little corner of the internet, made for us</p>
+    <h1>Rachit <span>♥</span> Jahanvi</h1>
+    <p class="hashtag">#rahanvi</p>
+    <p class="sub">Two names. One beginning. A story still being written.</p>
+    <button class="primary next">Begin our story <span>→</span></button>
+    <div class="date-pill">17 September 2026 · where it all began</div>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" data-page="2">
+    <div class="section-head">
+      <span class="step">01 / OUR BEGINNING</span>
+      <h2>How It All Started<span>…</span></h2>
+      <p>One conversation. A few silly messages. And somehow, it became <b>us.</b></p>
+    </div>
+    <div class="chat-frame reveal">
+      <div class="chat-top"><span class="dot"></span><span>jahanvi</span><small>our first chapter</small></div>
+      <img src="assets/page2_start.jpg" alt="Chat where our relationship started">
+    </div>
+    <div class="date-card"><strong>17</strong><div><b>September 2026</b><span>The day #rahanvi got its beginning.</span></div></div>
+    <button class="primary next">Keep going <span>→</span></button>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page" data-page="3">
+    <div class="section-head">
+      <span class="step">02 / HER WORDS</span>
+      <h2>Her Words, <em>My Promise</em></h2>
+      <p>Some messages are just texts. Some become promises you remember.</p>
+    </div>
+    <div class="story-grid two">
+      <article class="story-card reveal">
+        <img src="assets/page3_love.jpg" alt="Sweet conversation">
+        <div class="card-caption"><span>HER</span><p>“I love u baby” · “Tu mere se shaadi karega na”</p></div>
+      </article>
+      <article class="story-card reveal delay">
+        <img src="assets/page3_promise.jpg" alt="Promise conversation">
+        <div class="card-caption"><span>ME</span><p>“for sure bby” · “i promise u” · “kvi ni chorunga”</p></div>
+      </article>
+    </div>
+    <div class="quote">
+      <span>“</span>
+      <p>Tumhari har baat mere liye important hai. Tum jo feel karti ho, main uski respect karta hoon. Aur tumhare darr ka jawab mere paas ek hi hai — <b>I promise, I'm here. ❤️</b></p>
+    </div>
+    <button class="primary next">One more chapter <span>→</span></button>
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page" data-page="4">
+    <div class="section-head">
+      <span class="step">03 / HER MASTI</span>
+      <h2>Your Little <em>Masti</em> 🫶</h2>
+      <p>Paas bulaana, aur paas bulaana… phir khud hi sharma jaana. 🙈</p>
+    </div>
+    <div class="story-grid two">
+      <article class="story-card reveal">
+        <img src="assets/page4_masti.jpg" alt="Playful chat">
+        <div class="card-caption"><span>HER MASTI</span><p>“Accha mere pass aao” · “Aur pass aao” 🙈</p></div>
+      </article>
+      <article class="story-card sticker-card reveal delay">
+        <img src="assets/page4_family.jpg" alt="Family sticker">
+        <div class="card-caption"><span>THAT LITTLE STICKER</span><p>Ek chhota sa sticker… par ek badi si feeling. 🥹</p></div>
+      </article>
+    </div>
+    <div class="soft-note">
+      <b>Your masti, your little gestures, your way of making me smile.</b>
+      <span>I want to keep all of it. ❤️</span>
+    </div>
+    <button class="primary next">Now look at you… <span>→</span></button>
+  </section>
+
+  <!-- PAGE 5 -->
+  <section class="page beauty" data-page="5">
+    <div class="section-head">
+      <span class="step">04 / MY FAVORITE PERSON</span>
+      <h2>And Then There’s <em>You.</em></h2>
+      <p>Some people are beautiful. You somehow make the whole moment beautiful.</p>
+    </div>
+    <div class="portrait-wrap reveal">
+      <div class="portrait-ring"></div>
+      <img src="assets/jahanvi.jpg" alt="Jahanvi">
+      <div class="portrait-tag">my beautiful Jahanvi ♡</div>
+    </div>
+    <div class="love-text">
+      <p>Your smile has this quiet way of making everything feel lighter.</p>
+      <p>Your eyes, your little expressions, the way you carry yourself — I could keep noticing tiny things about you forever.</p>
+      <p>But what I love most isn't just how beautiful you look. It's <b>you</b> — your heart, your masti, your care, your way of making ordinary moments feel special.</p>
+    </div>
+
+    <div class="puzzle">
+      <span class="step">A LITTLE GAME</span>
+      <h3>Complete our hashtag 💜</h3>
+      <p>Tap the letters in the right order to reveal <b>#RAHANVI</b>.</p>
+      <div id="puzzleLetters"></div>
+      <div class="puzzle-answer" id="answer">_ _ _ _ _ _</div>
+      <p class="puzzle-status" id="puzzleStatus">Start with <b>R</b> ✨</p>
+      <button class="reset" id="resetPuzzle">Reset</button>
+    </div>
+    <button class="primary next" id="afterPuzzle">One last thing <span>→</span></button>
+  </section>
+
+  <!-- PAGE 6 -->
+  <section class="page final" data-page="6">
+    <div class="final-glow"></div>
+    <div class="final-hearts">♥ ♥ ♥</div>
+    <p class="eyebrow">THE END OF THIS LITTLE WEBSITE</p>
+    <h2>Thank You, Jahanvi.</h2>
+    <div class="final-letter">
+      <p>Thank you for being with me.</p>
+      <p>Thank you for every conversation, every stupid joke, every “butke”, every little bit of masti, and every moment that somehow became special.</p>
+      <p>We started our story on <b>17 September 2026</b>. This is only the beginning of everything we still have to write.</p>
+      <div class="signature">— Rachit <span>♥</span></div>
+    </div>
+    <div class="final-hash">#rahanvi</div>
+    <button class="ghost" id="restart">↺ Read it again</button>
+  </section>
+</main>
+
+<nav class="nav">
+  <button id="prev" aria-label="Previous page">←</button>
+  <div id="dots"></div>
+  <button id="nextNav" aria-label="Next page">→</button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
